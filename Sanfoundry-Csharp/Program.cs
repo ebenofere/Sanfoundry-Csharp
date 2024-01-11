@@ -102,17 +102,17 @@
 
 
 //C# Program to Swap two Numbers
-//int num1, num2, temp;
-//Console.Write("\nEnter the first number : ");
-//num1 = int.Parse(Console.ReadLine());
-//Console.Write("\nEnter the second number : ");
-//num2 = int.Parse(Console.ReadLine());
+int num1, num2, temp;
+Console.Write("\nEnter the first number : ");
+num1 = int.Parse(Console.ReadLine());
+Console.Write("\nEnter the second number : ");
+num2 = int.Parse(Console.ReadLine());
 
-//temp = num1;
-//num1 = num2;
-//num2 = temp;
+temp = num1;
+num1 = num2;
+num2 = temp;
 
-//Console.Write("\nAfter swapping, here are the results: ");
-//Console.Write($"\nFirst number: {num1}");
-//Console.Write($"\nSecond number: {num2}");
-//Console.Read();
+Console.Write("\nAfter swapping, here are the results: ");
+Console.Write($"\nFirst number: {num1}");
+Console.Write($"\nSecond number: {num2}");
+Console.Read();
