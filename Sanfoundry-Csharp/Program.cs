@@ -121,14 +121,60 @@
 
 
 //C# Program to Find whether the Number is Divisible by 2
-int n;
-Console.WriteLine("Enter the number : ");
-n = int.Parse(Console.ReadLine());
-if (n % 2 == 0)
-{
-    Console.WriteLine("this number is divisible by 2");
-}
-else
-{
-    Console.WriteLine("this number is not divisible by 2");
-}
+//int n;
+//Console.WriteLine("Enter a number : ");
+//n = int.Parse(Console.ReadLine());
+//if (n % 2 == 0)
+//{
+//    Console.WriteLine("the entered number is divisible by 2");
+//}
+//else
+//{
+//    Console.WriteLine("the entered number is not divisible by 2");
+//}
+//Console.ReadLine();
+
+
+
+
+//C# Program to Print the Sum of all the Multiples of 3 and 5 within a range of 100
+//int a, b, i, Sum = 0;
+//for (i = 1; i < 100; i++)
+//{
+//    a = i % 3;
+//    b = i % 5;
+//    if (a == 0 || b == 0)
+//    {
+//        Console.Write($"{i}\t");
+//        Sum = Sum + i;
+//    }
+//    Console.WriteLine($"\nThe sum of all the multiples of 3 or 5 below 100 : {Sum}");
+//    Console.Read();
+//}
+
+
+
+
+//C# Program to Print all the Multiples of 17 which are Less than 100
+//int a, i;
+//Console.WriteLine("The multiples of 17 are : ");
+//for (i = 1; i < 100; i++)
+//{
+//    a = i % 17;
+//    if (a == 0)
+//    {
+//        Console.WriteLine(i);
+//    }
+//}
+//Console.Read();
+
+
+
+//C# Program to Get a Number and Display the Sum of the Digits 
+int a, b, Sum;
+Console.WriteLine("Enter the first number : ");
+a = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter the second number : ");
+b = int.Parse(Console.ReadLine());
+Sum = a + b;
+Console.WriteLine($"The sum of the two numbers is {Sum}");
