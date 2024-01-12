@@ -170,11 +170,44 @@
 
 
 
+
 //C# Program to Get a Number and Display the Sum of the Digits 
-int a, b, Sum;
-Console.WriteLine("Enter the first number : ");
-a = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter the second number : ");
-b = int.Parse(Console.ReadLine());
-Sum = a + b;
-Console.WriteLine($"The sum of the two numbers is {Sum}");
+//int num, r, sum = 0;
+//Console.WriteLine("Enter a number : ");
+//num = int.Parse(Console.ReadLine());
+//while (num != 0)
+//{
+//    r = num % 10;
+//    num = num / 10;
+//    sum += r;
+//}
+//Console.WriteLine($"The sum of these digits is {sum}");
+//Console.ReadLine();
+
+
+
+
+//C# Program to Find Sum of Digits of a Number using Recursion
+//int num, result;
+//Pro pg = new Pro();
+//Console.WriteLine("Enter the number : ");
+//num = int.Parse(Console.ReadLine());
+//result = pg.sum(num);
+//Console.WriteLine($"Sum of digits in {num} is {result}");
+//Console.ReadLine();
+
+
+
+
+//C# Program to Get a Number and Display the Number with its Reverse
+//int num, reverse = 0;
+//Console.WriteLine("Enter a number : ");
+//num = int.Parse(Console.ReadLine());
+//while (num != 0)
+//{
+//    reverse = reverse * 10;
+//    reverse = reverse + (num % 10);
+//    num = num / 10;
+//}
+//Console.WriteLine($"Reverse of the entered number is : {reverse}");
+//Console.ReadLine();
